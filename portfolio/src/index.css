@@ -1,0 +1,27 @@
+/* index.css – custom highlighted portfolio styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background: #f9fafc;
+  color: #1e293b;
+}
+h1, h2, h3, h4 {
+  font-weight: 700;
+  color: #0f172a;
+}
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+.section { padding: 60px 20px; max-width: 1100px; margin: 0 auto; }
+.section-title { font-size: 28px; margin-bottom: 20px; border-left: 5px solid #2563eb; padding-left: 12px; }
+.project-card { background: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 20px; margin-bottom: 20px; transition: transform 0.2s; }
+.project-card:hover { transform: translateY(-5px); }
+.project-tech { margin-top: 10px; font-size: 14px; color: #475569; }
+.btn { display: inline-block; padding: 10px 18px; border-radius: 6px; font-size: 14px; font-weight: 500; cursor: pointer; transition: background 0.2s; }
+.btn-primary { background: #2563eb; color: white; }
+.btn-primary:hover { background: #1d4ed8; }
+.btn-secondary { border: 1px solid #2563eb; color: #2563eb; }
+.btn-secondary:hover { background: #e0e7ff; }
+footer { text-align: center; padding: 20px; font-size: 14px; color: #64748b; }
